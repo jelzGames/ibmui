@@ -1,6 +1,6 @@
 applications :
 - name: "DemoCoreUI"
-  path : "dist/democoreui"
+  path : "dist"
   memory : 128M
   buildpack :
   - "https://github.com/cloudfoundry/staticfile-buildpack"
