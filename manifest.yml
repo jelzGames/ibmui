@@ -1,6 +1,6 @@
 applications :
 - name: "DemoCoreUI"
-  path : "dist"
+  path : "dist/democoreui"
   memory : 128M
   buildpack :
-  - "https://github.com/jelzGames/ibmui.git"
+  - "https://github.com/cloudfoundry/staticfile-buildpack"
