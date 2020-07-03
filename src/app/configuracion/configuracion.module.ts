@@ -21,13 +21,6 @@ import { UsuariosFiltroComponent } from './usuarios/usuarios-filtro/usuarios-fil
 import { UsuariosEditComponent } from './usuarios/usuarios-edit/usuarios-edit.component';
 import { DialogsDataService } from '../services/dialogs.data.service';
 import { UsuariosGruposComponent } from './usuarios/usuarios-grupos/usuarios-grupos.component';
-import { CompaniesComponent } from './companies/companies/companies.component';
-import { CompaniesEditComponent } from './companies/companies-edit/companies-edit.component';
-import { CompaniesFiltroComponent } from './companies/companies-filtro/companies-filtro.component';
-import { CompaniesUsersComponent } from './companies/companies-users/companies-users.component';
-import { CompaniesResultComponent } from './companies/companies-result/companies-result.component';
-
-
 
 @NgModule({
   imports: [
@@ -41,7 +34,7 @@ import { CompaniesResultComponent } from './companies/companies-result/companies
   ],
   declarations: [ GroupsComponent, MenuComponent, 
     MenuEditComponent, MenuFiltroComponent, MenuResultComponent, GroupsEditComponent, GroupsFiltroComponent, GroupsResultComponent, 
-    GroupsMenuComponent, UsuariosComponent, UsuariosResultComponent, UsuariosFiltroComponent, UsuariosEditComponent, UsuariosGruposComponent, CompaniesComponent, CompaniesEditComponent, CompaniesFiltroComponent, CompaniesUsersComponent, CompaniesResultComponent],
+    GroupsMenuComponent, UsuariosComponent, UsuariosResultComponent, UsuariosFiltroComponent, UsuariosEditComponent, UsuariosGruposComponent],
   providers: [ DialogsDataService ],
 })
 export class ConfiguracionModule { }
